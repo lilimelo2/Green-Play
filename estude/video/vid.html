@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Slider |Dev Mode</title>
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+</head>
+<body>
+
+  <section class="swiper mySwiper">
+
+    <div class="swiper-wrapper">
+
+      <div class="card swiper-slide">
+        <div class="card__image">
+          
+        </div>
+
+        <div class="card__content">
+          <span class="card__title">GP</span>
+          <span class="card__name">Sustentabilidade</span>
+          <p class="card__text">Essa playlist irá te ajudar nos estudos sobre a Sustentabilidade
+
+          </p>
+          <button class="card__btn" >
+            <a class="lili" href="https://www.youtube.com/watch?v=OAQer2uPwAE&list=PLvdo_I-P5nTnejGDsTebFDo7bFnoPX_zi">Assistir</a>
+          </button>
+        </div>
+      </div>
+
+      <div class="card swiper-slide">
+        <div class="card__image">
+         
+        </div>
+
+        <div class="card__content">
+          <span class="card__title">Green Play</span>
+          <span class="card__name">Investimentos sustentáveis</span>
+          <p class="card__text"> Essa playlist irá te ajudar a enteder sobre o Investimento sustentável</p>
+          <button class="card__btn">
+            <a class="lili2"   href="https://www.youtube.com/watch?v=y7KZR1geCGk&list=PLvdo_I-P5nTn_Bs9EiVy7O3t_VGxVkfua">Assistir</a>
+          </button>
+        </div>
+      </div>
+
+      <div class="card swiper-slide">
+        <div class="card__image">
+         
+        </div>
+
+        <div class="card__content">
+          <span class="card__title">GP</span>
+          <span class="card__name">Empresas sustentáveis</span>
+          <p class="card__text">Essa playlist vai te mostrar as empresas que adotam a Sustentabilidade e como fazem Investimentos</p>
+          <button class="card__btn">
+            <a class="lili3"  href="https://www.youtube.com/watch?v=W2rbfD_8rtg&list=PLvdo_I-P5nTkIvy22ZsUtZBRK8OSmX3if">Assistir</a>
+          </button>
+        </div>
+      </div>
+
+      <div class="card swiper-slide">
+        <div class="card__image">
+         
+        </div>
+
+        <div class="card__content">
+          <span class="card__title">Green Play</span>
+          <span class="card__name">Primeiro podcast sustentável</span>
+          <p class="card__text">o que será que rolou no primeiro podcast sobre Sustentabilidade</p>
+          <button class="card__btn">
+            <a class="lili4" href="https://www.youtube.com/watch?v=BpOzickT4_E&list=PLBCLVBZCuarFDpJHUWe98_W_iogQ7A1f6">Assistir</a>
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+<!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 0,
+        stretch: 0,
+        depth: 300,
+        modifier: 1,
+        slideShadows: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+
+</body>
+</html>
